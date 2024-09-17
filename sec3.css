@@ -1,0 +1,157 @@
+#sec3{
+    /* border: 2px solid yellow; */
+    height: 210vh;
+}
+#img1 {
+    /* border: 2px solid orange; */
+    padding-top:80px;
+}
+#img1 img{
+  height: 80%;
+  width: 40%;
+  position: absolute;
+  left: 710px;
+}
+#sec3 h1{
+    /* border: 2px solid; */
+    font-size: 45px;
+    margin-left: 100px;
+    padding-top: 90px;
+}
+#sec3 p{
+    margin-left: 100px;
+    padding-top: 40px;
+}
+#bu button{
+    position: absolute;
+    top: 317vh;
+    left: 100px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+#sec3 span{
+    padding-left: 260px;
+   position: absolute;
+   top: 318vh;
+    font-size: 16px;
+    transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+#sec3 hr{
+    width: 166px;
+  cursor: pointer;
+    margin-left: 263px;
+  position: absolute;
+  top: 322vh;
+}
+#img2{
+    padding-top: 280px;
+    padding-left: 90px;
+    /* border: 2px solid yellow; */
+}
+#img2 h1{
+    position: absolute;
+    left: 700px;
+    top: 360vh;
+    font-size: 40px;
+    font-weight:700;
+}
+#img2 p{
+    /* border: 2px solid green; */
+    margin-left: 710px;
+    position: absolute;
+    top: 389vh;
+    /* padding-bottom: 300px; */
+}
+#img2 button {
+    position: absolute;
+    top: 410vh;
+    left: 60%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    width: 170px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+#sec4{
+    border: 2px solid white ;
+   height: 70vh;
+   background-color:lightgray;
+}
+#sec4 h2{
+ font-size: 32px;
+ margin-left: 90px;
+ margin-top: 80px;
+ font-family: sans-serif;
+ /* border: 2px solid yellow; */
+}
+#scan1 {
+    /* border: 2px solid yellow; */
+    background-color: white;
+    margin-top: 60px;
+    height: 210px;
+    margin-left: 90px;
+    width: 580px;
+}
+
+#scan1 img{
+    margin-left: 30px;
+    margin-top: 30px;
+    /* height: 40%; */
+}
+#scan1 h2{
+    position: absolute;
+    left: 200px;
+    top: 483vh;
+    font-size: 25px;
+    /* border: 2px solid green; */
+}
+#scan1 p{
+    position: absolute;
+    left: 290px;
+    top: 501vh;
+    font-size: 16px;
+}
+/* #scan1 svg{
+position: absolute;
+top: 500vh;
+} */
+
+#scan2 {
+    /* border: 2px solid yellow; */
+    background-color: white;
+   height: 210px;
+    width: 580px;
+    position: absolute;
+    left: 700px;
+    top: 192.5em;
+}
+#scan2 img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#scan2 h2{
+    position: absolute;
+    left: 100px;
+    bottom: 96px;
+    font-size: 25px;
+}
+#scan2 p{
+    position: absolute;
+    left: 194px;
+    bottom: 68px;
+    font-size: 16px;
+}
+#scan2 svg{
+   cursor: pointer;
+margin-left:  70px;
+}
+#scan2:hover svg {
+    /* color: green; */
+    transform: translateX(20px);
+    transition: transform 0.5s ease-in-out;
+    /* transition: ; */
+}
