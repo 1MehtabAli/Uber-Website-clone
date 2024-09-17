@@ -1,0 +1,117 @@
+:root{
+    --font-color:white;
+}
+#sec1{
+    background-color: black;
+    height: 120vh;
+    
+}
+#sec1 img{
+    
+   position: absolute;
+   height: 100%;
+   width: 40%;
+   left: 710px;
+   top: 150px;
+}
+#sec1 h1{
+        color:var(--font-color) ;
+        position: absolute;
+        top: 300px;
+        font-size: 50px;
+        left: 100px;
+}
+#sec1 p{
+    color: var(--font-color);
+   position: absolute;
+   left: 100px;
+   top: 470px;
+}
+#div1{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    left: 100px;
+    top: 520px;
+    /* border-radius: 15%; */
+    
+}
+#div1 input{
+    height: 60px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+svg{
+    position: absolute;
+    height: 1.7em;
+    width: 1.7em;
+    top: 538px;
+    left: 455px;
+    cursor: pointer;
+}
+#sec1 button {
+    /* border: 2px solid yellow; */
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 690px;
+    left: 100px;
+    padding: 11px 24px;
+   cursor: pointer;
+   border-radius: 10px;
+}
+#sec2{
+    /* border: 2px solid red; */
+    height: 110vh;
+}
+#sec2 img:first-child{
+    height: 87%;
+    width: 42%;
+    position: absolute;
+    left: 8%;
+    top: 940px;
+}
+#one{
+    font-size: 46px;
+    font-weight: bold;
+    /* border: 2px solid; */
+    margin-left: 800px;
+    padding-top: 200px;
+}
+#sec2 p{
+     margin-left: 800px;
+     padding-top:40px;
+}
+#but{
+
+  position: absolute;
+  left: 800px;
+  top: 215vh;
+}
+#but button{
+    /* font-size: 20px; */
+    padding: 10px 10px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+#sec2 hr{
+    width: 240px;
+    position: absolute;
+    left: 960px;
+    top: 222vh;
+}
+#sec2 hr:hover{
+    cursor: pointer;
+}
+#sec2 h5{
+    font-weight: 400;
+    position: absolute;
+    left: 960px;
+    top: 218vh;
+    font-size: 16px;
+    cursor: pointer;
+}
+
